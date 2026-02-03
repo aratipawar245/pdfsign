@@ -29,7 +29,7 @@ func SignPDF(
 
 	wm, err := api.TextWatermark(
 		visibleText,
-		"pos:br,scale:0.45,font:Helvetica,align:left",
+		"pos:br,scale:0.45,rot:0,op:1,font:Helvetica,align:left,col:#000000",
 		true,
 		false,
 		types.POINTS,
